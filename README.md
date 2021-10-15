@@ -1,3 +1,13 @@
+## 課題
+
+### Hello World API
+Hello Worldを返却するAPI。Spring Bootの基礎となる部分です。
+
+
+### Book API
+書籍管理API。CRUDの勉強用です。1 が終わったらこちらに進んでください。
+
+
 | no | 課題 | 内容 |
 | ---- | ---- | --- |
 | 1 | Hello World API | requestで name  を受け取り、例の通りのResponseをJsonで返却してください。<br> 例:  {"message":"Hello, $name"} <br> Spring Initializrを利用して作成してください。ブラウザでDownloadしてもIDEの機能を利用してもOKです <br> Project名称はお好きなもので <br>
