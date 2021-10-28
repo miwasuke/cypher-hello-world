@@ -1,5 +1,6 @@
 package cypher.miwasuke.helloworld.controller
 
+import cypher.miwasuke.helloworld.entity.Reply
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
@@ -11,7 +12,5 @@ class HelloworldController {
     fun hello(): String = "hello world"
 
     @GetMapping("/hello")
-    fun helloName(
-        @RequestParam name: String
-    ): String = ("Hello, $name")
+    fun helloName(@RequestParam name: String) = Reply(message = "Hello, $name")
 }
